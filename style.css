@@ -1,0 +1,56 @@
+
+
+.HeadingColors {
+    color: rgb(3, 70, 3);
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+#inputDisplays {
+    text-align: center;
+    font-weight: bold;
+}
+
+.changeOutputs {
+    text-align: center;
+}
+
+#input-label {
+    text-align: center;
+}
+
+#input1-label {
+    text-align: center;
+}
+
+.pig
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    
+#dollars-output {
+    color: rgb(44, 39, 39);
+    margin-top: 1px;
+}
+#quarters-output {
+    color: rgb(44, 39, 39);
+    margin-top: 1px;
+}
+#dimes-output {
+    color: rgb(44, 39, 39);
+    margin-top: 1px;
+}
+#nickels-output {
+    color: rgb(44, 39, 39);
+    margin-top: 1px;
+}
+#pennies-output {
+    color: rgb(22, 17, 17);
+    margin-top: 1px;
+}
