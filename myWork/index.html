@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>Change Calculator</title>
+  </head>
+  <body>
+    <!-- Write your markup here -->
+    <!-- Don't forget to add your <script> tag here -->
+      <script src="main.js" charset="utf-8"></script>
+      <link rel="stylesheet" href="style.css" />
+      
+      <div id="inputDisplays">
+      <h1>Change Calculator</h1>
+      <label id="input-label"> Amount Due:
+      <input id="amount-due" type="text" placeholder="Amount-Due" />
+      </label>
+      <label id="input1-label"> Amount Received:
+      <input id="amount-received" type="text" placeholder="Amount-Received" />
+     </label>
+      <button id="calculate-change" onclick="clickHandleEvent()">Calculate Change</button>
+      </div>
+      
+      <div>
+      <h3 id="dollar-heading" class="HeadingColors"></h3>
+      <p id="dollars-output" class="changeOutputs"></p>
+      </div>
+      
+      <div>
+        <h3 id="quarters-heading"class="HeadingColors"></h3>
+        <p id="quarters-output" class="changeOutputs"></p>
+      </div>
+      
+      <div>
+        <h3 id="dimes-heading" class="HeadingColors"></h3>
+        <p id="dimes-output" class="changeOutputs"></p>
+      </div>
+      <div>
+        <h3 id="nickels-heading" class="HeadingColors"></h3>
+        <p id="nickels-output" class="changeOutputs"></p>
+      </div>
+      
+      <div>
+        <label id="pennies-label"></label>
+        <h3 id="pennies-heading" class="HeadingColors"></h3>
+        <p id="pennies-output" class="changeOutputs"></p>
+      </div>
+
+      <div style="position: relative; left: 0; top: 0;">
+        <img src="http://hoyleplay.com/wp-content/uploads/2017/07/pig-e1502294240169.png" class="pig"/>
+       </div>
+
+    </body>
+</html>
